@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>H5播放器</title>
+        <link rel="stylesheet" href="css/demo.css" media="screen" title="no title" charset="utf-8">
+        <script src="js/jquery.js" charset="utf-8"></script>
+        <script src="js/demo.js" charset="utf-8"></script>
+    </head>
+    <body>
+        <div class="videoBox comWidth">
+            <!-- 视频主体 -->
+            <video  width="800" id="player" poster="fengmian.jpg">
+                <source src="demo.mp4" type="video/mp4">
+            </video>
+            <!-- 播放控件 -->
+            <div class="bottomBtn">
+                <!-- 播放暂停按钮 -->
+                <span class="playStopBtn fl">play</span>
+                <!-- 进度条 -->
+                <p class="videoLine fl">
+                    <span class="videoDrag"></span>
+                    <p class="time curr">00:00:00</p>
+                    <p class="time dura">00:00:00</p>
+                </p>
+                <!-- 音量条 -->
+                <p class="videoV fl">
+                    <span class="vDrag"></span>
+                </p>
+                <!-- 全屏按钮 -->
+                <span class="fullScreen fl" title="全屏">全屏</span>
+            </div>
+        </div>
+    </body>
+</html>

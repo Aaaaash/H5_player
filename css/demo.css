@@ -1,0 +1,28 @@
+body,ol,ul,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div,dl,dt,dd,input{margin:0;padding:0;}
+body{font-size: 12px;font-family:"微软雅黑";background-attachment:fixed;font-family:"Microsoft YaHei";}
+body ::selection {color:#FFFFFF;background-color:#333;text-shadow:none;}
+body ::-moz-selection {color:#FFFFFF;background-color:#333;text-shadow:none;}
+img{border:none;}
+li{list-style-type: none;}
+input,select,textarea{outline:none;}
+textarea{resize:none;}
+a{text-decoration: none;}
+/*清除浮动*/
+.clearfix:after{display: block;clear: both;content: '';height: 0;}
+.clearfix{zoom:1;}
+/*通用样式*/
+.fl{float:left}
+.fr{float:right}
+
+#player{cursor: pointer}
+.videoBox{margin: 50px auto;position: relative;background: #ccc;width: 800px;overflow: hidden}
+.bottomBtn{position: absolute;height: 50px;width: 100%;background: #CDD3D5;bottom: -50px;border-radius: 10px; }
+.playStopBtn{width: 50px;height: 50px;text-align: center;line-height: 50px;display: inline-block;background: url(../img/btnbg.png) left top no-repeat;background-size: 50px;border-radius: 50px;cursor:pointer;margin: 0 0 0 5px;font-weight: bold}
+.playStopBtn:hover{box-shadow: 0 2px 2px 2px rgba(255,255,255,0.3);color:#ff004f}
+.videoLine{display: inline-block;width: 645px;height: 6px;background: #9AA0A2;margin: 22px 5px;position: relative;border-radius: 10px;cursor: pointer;box-shadow: 0 0 0 -1px #ccc}
+.videoDrag{padding: 0 2px;height:6px; position: absolute;left: 0;background-color: red;border-radius: 20px;cursor: pointer;box-shadow:0 0 0 3px rgba(255, 255, 255, 0.3)}
+.videoV{width: 50px;height: 6px;background:  #9AA0A2;border-radius: 5px;line-height: 50px;display: inline-block;margin:22px 5px 0 0 ;position: relative}
+.vDrag{width: 5px;height:6px; position: absolute;left: 45px;background-color: #ff004f;border-radius: 5px;cursor: pointer;position: absolute;left: 0;box-shadow:0 0 0 3px rgba(255, 255, 255, 0.3)}
+.fullScreen{width: 30px;height: 30px;background: rgba(118, 238, 195, 0.44);margin: 10px 0;cursor:pointer;text-align: center;line-height: 30px;border-radius: 50%;}
+.time{color:#fff;position: absolute;top: 0px;left: 60px;background: #ff004f;border-radius:5px;}
+.dura{left: 120px;color: #ff004f;background: #fff}
